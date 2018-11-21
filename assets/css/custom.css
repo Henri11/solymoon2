@@ -96,7 +96,7 @@ details > p {
 #home-service {
 	background: url('../img/winter-2945906_1920%20copie.jpg');
 	background-attachment: fixed;
-	height: 700px;
+	min-height: 700px;
 	background-size: cover;
 }
 
@@ -131,7 +131,7 @@ details > p {
 
 .okk {
 	background: #f8f8f8;
-	height: 400px;
+	min-height: 400px;
 	background-position: top;
 	background-size: cover;
 }
@@ -139,7 +139,7 @@ details > p {
 
 .ok {
 	background: url('../img/adult-1868750_1280.jpg');
-	height: 200px;
+	min-height: 200px;
 	background-size: cover;
 	height: auto;
 	background-position: bottom;
@@ -385,3 +385,12 @@ ol {
 }
 
 /*FOOTER*/
+
+/*MEDIA QUERI*/
+@media(max-width:768px) {
+
+	body,
+	html {
+		overflow-x: hidden;
+	}
+}
