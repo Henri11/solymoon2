@@ -2,248 +2,273 @@
 <html lang="fr">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="">
-    <meta name="author" content="">
-    <link rel="icon" href="img/favicon.ico">
-    <title>Home</title>
-    <!-- Bootstrap CSS & Fontawesome-->
-    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
-    <link href="https://gitcdn.github.io/bootstrap-toggle/2.2.2/css/bootstrap-toggle.min.css" rel="stylesheet">
-    <!-- Custom CSS -->
-    <link rel="stylesheet" type="text/css" href="assets/css/custom.css">
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="">
+	<meta name="author" content="">
+	<link rel="icon" href="img/favicon.ico">
+	<title>Home</title>
+	<!-- Bootstrap CSS & Fontawesome-->
+	<link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+	<link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+	<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+	<link href="https://gitcdn.github.io/bootstrap-toggle/2.2.2/css/bootstrap-toggle.min.css" rel="stylesheet">
+	<!-- Custom CSS -->
+	<link rel="stylesheet" type="text/css" href="assets/css/custom.css">
 
-    <!-- Google Font -->
-    <!-- METTEZ VOS POLICES GOOGLE ICI -->
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    <!-- AOS Effect -->
-    <link href="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.css" rel="stylesheet">
+	<!-- Google Font -->
+	<!-- METTEZ VOS POLICES GOOGLE ICI -->
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	<!-- AOS Effect -->
+	<link href="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.css" rel="stylesheet">
 
 </head>
 
 <body>
+	<div class="container-fluid">
+		<header>
+			<nav class="navbar navbar-expand-lg fixed-top navbar-dark">
+				<div class="container">
+					<a class="navbar-brand" href="index.html">
+						<img src="assets/img/logo-htd.png" alt="Logo Hightdev" class="logo">
+					</a>
+					<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+						<span class="navbar-toggler-icon" style="color: white"></span>
+					</button>
+					<div class="collapse navbar-collapse text-center" id="navbarResponsive">
+						<ul class="navbar-nav ml-auto">
+							<li class="nav-item active">
+								<i class="material-icons">
+									home
+								</i>
+								<a class="nav-link active" href="index.html">Home
+									<span class="sr-only">(current)</span>
+								</a>
+							</li>
+							<li class="nav-item ">
+								<i class="material-icons">
+									info
+								</i>
+								<a class="nav-link " href="a-propos.html">A propos
+									<span class="sr-only">(current)</span>
+								</a>
+							</li>
+							<li class="nav-item ">
+								<details close>
+									<summary>
+										<a class="d-flex" href="#">
+											<i class="material-icons">update</i>
+											<h4>Services</h4>
+										</a>
+									</summary>
+									<p>
+										<a href="#">Evenement d'entreprise</a>
+									</p>
+									<p>
+										<a href="#">Evenement privé</a>
+									</p>
+									<p>
+										<a href="#">Conseils et Expertise</a>
+									</p>
 
-    <div class="container-fluid">
-        <nav class="navbar navbar-expand-lg fixed-top navbar-dark">
-            <div class="container">
-                <a class="navbar-brand" href="index.html">
-                    <img src="assets/img/logo-htd.png" alt="Logo Hightdev" class="logo">
-                </a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon" style="color: white"></span>
-                </button>
-                <div class="collapse navbar-collapse text-center" id="navbarResponsive">
-                    <ul class="navbar-nav ml-auto">
-                        <li class="nav-item active">
-                            <i class="material-icons">
-                                home
-                            </i>
-                            <a class="nav-link active" href="index.html">Home
-                                <span class="sr-only">(current)</span>
-                            </a>
-                        </li>
-                        <li class="nav-item ">
-                            <i class="material-icons">
-                                info
-                            </i>
-                            <a class="nav-link " href="index.html">About
-                                <span class="sr-only">(current)</span>
-                            </a>
-                        </li>
-                        <li class="nav-item ">
-                            <i class="material-icons">
-                                date_range
-                            </i>
-                            <a class="nav-link " href="index.html">Programme
-                                <span class="sr-only">(current)</span>
-                            </a>
-                        </li>
-                        <li class="nav-item ">
-                            <i class="material-icons">
-                                contacts
-                            </i>
-                            <a class="nav-link " href="index.html">Contact
-                                <span class="sr-only">(current)</span>
-                            </a>
-                        </li>
+								</details>
+							</li>
+							<li class="nav-item ">
+								<i class="material-icons">
+									contacts
+								</i>
+								<a class="nav-link " href="production.html">Production
+									<span class="sr-only">(current)</span>
+								</a>
+							</li>
+							<li class="nav-item ">
+								<i class="material-icons">
+									contacts
+								</i>
+								<a class="nav-link " href="contact.html">Contact
+									<span class="sr-only">(current)</span>
+								</a>
+							</li>
 
-                    </ul>
-                </div>
-            </div>
-        </nav>
-        <section id="hero" class=" row">
-            <section class="col-sm-12 hero-accueil d-flex align-items-center justify-content-center flex-column">
-                <h1 id="" class="p-2 bienvenue text-white text-uppercase justify-content-center text-center "><strong>bienvenue chez <br />Solym<span style="color: #c85d29">OO</span>n</strong></h1>
-                <div class="space-mid"></div>
-                <a href="#"><button data-aos="zoom-in" data-aos-duration="1500" data-aos-mirror="true" class=" text-white btn btn-outline-light p-2 ">Voir nos évènements</button> </a>
-
-            </section>
-
-        </section> <!-- END SECTION #welcom -->
+						</ul>
+					</div>
+				</div>
+			</nav>
+		</header>
+		
+		<section id="hero" class=" row">
+			<section class="col-sm-12 hero-accueil d-flex align-items-center justify-content-center flex-column">
+				<h1 id="" class="p-2 bienvenue text-white text-uppercase justify-content-center text-center "><strong>bienvenue chez <br />Solym<span style="color: #c85d29">OO</span>n</strong></h1>
+				<div class="space-mid"></div>
 
 
-        <div class="space-mid"></div>
-        <section id="home-service" class="">
-            <h2 class="p-2 text-uppercase text-center  texte">Service</h2>
-            <div class="row d-flex align-items-center justify-content-center">
-                <div class="col-sm-3 service d-flex align-items-center justify-content-center flex-column 
+			</section>
+
+		</section> <!-- END SECTION #welcom -->
+
+
+
+		<section id="home-service" class="">
+			<div class="space-mid"></div>
+			<h2 class="p-2 text-uppercase text-center  texte text-white">Service</h2>
+			<div class="space-mid"></div>
+			<div class="space-mid"></div>
+			<div class="row d-flex align-items-center justify-content-center">
+				<div class="col-sm-3 service d-flex align-items-center justify-content-center flex-column 
                    " data-aos="fade-right" data-aos-duration="1500" data-aos-mirror="true">
-                    <i class="p-2 material-icons md-48"> turned_in_not</i>
-                    <h3 class="p-2">Service 1</h3>
-                    <p class="p-2">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse deserunt numquam, repudiandae, laboriosam atque eveniet fugiat nesciunt ab vitae laudantium voluptas officia placeat earum ipsum dignissimos qui non explicabo eaque.</p>
-                    <button type="button" class="p-2 btn btn-light p-2">Primary</button>
-                </div>
-                <div class="col-sm-3 service d-flex align-items-center justify-content-center flex-column" data-aos="fade-up" data-aos-duration="1500" data-aos-mirror="true">
-                    <i class="material-icons md-48 p-2"> favorite_border</i>
-                    <h3 class="p-2">Service 2</h3>
-                    <p class="p-2">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse deserunt numquam, repudiandae, laboriosam atque eveniet fugiat nesciunt ab vitae laudantium voluptas officia placeat earum ipsum dignissimos qui non explicabo eaque.</p>
-                    <button type="button" class="btn btn-light p-2">Primary</button>
+					<i class="p-2 material-icons md-48"> turned_in_not</i>
+					<h3 class="p-2">Service 1</h3>
+					<p data-aos="fade-in" data-aos-duration="2500"  class="p-2">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse deserunt numquam, repudiandae, laboriosam atque eveniet fugiat nesciunt ab vitae laudantium voluptas officia placeat earum ipsum dignissimos qui non explicabo eaque.</p>
+					<button data-aos="fade-up" data-aos-duration="3000" type="button" class="p-2 btn btn-light p-2">Primary</button>
+				</div>
+				<div class="col-sm-3 service d-flex align-items-center justify-content-center flex-column" data-aos="fade-up" data-aos-duration="1500" data-aos-mirror="true">
+					<i class="material-icons md-48 p-2"> favorite_border</i>
+					<h3 class="p-2">Service 2</h3>
+					<p data-aos="fade-in" data-aos-duration="2500"  class="p-2">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse deserunt numquam, repudiandae, laboriosam atque eveniet fugiat nesciunt ab vitae laudantium voluptas officia placeat earum ipsum dignissimos qui non explicabo eaque.</p>
+					<button data-aos="fade-up" data-aos-duration="3000"  type="button" class="btn btn-light p-2">Primary</button>
 
-                </div>
-                <div class="col-sm-3 service d-flex align-items-center justify-content-center flex-column" data-aos="fade-left" data-aos-duration="1500" data-aos-mirror="true">
-                    <i class="material-icons md-48 p-2"> supervisor_account</i>
-                    <h3 class="p-2">Service 3</h3>
-                    <p class="p-2">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse deserunt numquam, repudiandae, laboriosam atque eveniet fugiat nesciunt ab vitae laudantium voluptas officia placeat earum ipsum dignissimos qui non explicabo eaque.</p>
-                    <button type="button" class="btn btn-light p-2">Primary</button>
+				</div>
+				<div class="col-sm-3 service d-flex align-items-center justify-content-center flex-column" data-aos="fade-left" data-aos-duration="1500" data-aos-mirror="true">
+					<i class="material-icons md-48 p-2"> supervisor_account</i>
+					<h3 class="p-2">Service 3</h3>
+					<p data-aos="fade-in" data-aos-duration="2500"  class="p-2">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse deserunt numquam, repudiandae, laboriosam atque eveniet fugiat nesciunt ab vitae laudantium voluptas officia placeat earum ipsum dignissimos qui non explicabo eaque.</p>
+					<button data-aos="fade-up" data-aos-duration="3000"  type="button" class="btn btn-light p-2">Primary</button>
 
-                </div>
-            </div>
+				</div>
+			</div>
 
-        </section> <!-- END SECTION #SERVICE -->
+		</section> <!-- END SECTION #SERVICE -->
 
-        <section id="temoignage">
-            <div class="row">
-                <div class="col-sm-6 ok">
-                    <img src="assets/img/model-2303361_1920.jpg" alt="">
-                </div>
-                <div class="col-sm-6 text-center d-flex justify-content-center align-items-center flex-column okk">
-                    <h3 class="p-2">Temoignage</h3>
-                    <p class="p-2">
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam adipisci ipsum rem facere temporibus veniam eveniet, ipsa similique commodi ad hic sequi optio excepturi praesentium. Consectetur, animi odio obcaecati saepe.
-                    </p>
-                    <p class="p-2">
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam adipisci ipsum rem facere temporibus veniam eveniet, ipsa similique commodi ad hic sequi optio excepturi praesentium. Consectetur, animi odio obcaecati saepe.
-                    </p>
-                </div>
-            </div>
-        </section> <!-- END #SECTION-->
-        <div class="space-mid"></div>
-        <section id="gallery">
-            <div class="container">
-                <h2 class="p-2 text-center">Nos derniers evenement</h2>
-                <div class="space-mid"></div>
-                <div class="grid">
-                    <div data-aos="fade-right" data-aos-duration="1000" class="grid-item"></div>
-                    <div data-aos="fade-left" data-aos-duration="1000" class="grid-item grid-item--width2 grid-item--height2"></div>
-                    <div data-aos="fade-up" data-aos-duration="1000" class="grid-item grid-item--height3"></div>
-                    <div data-aos="fade-down" data-aos-duration="1000" class="grid-item grid-item--height2"></div>
-                    <div data-aos="fade-down-right" data-aos-duration="1000" class="grid-item"></div>
-                    <div data-aos="fade-down-left" data-aos-duration="1000" class="grid-item"></div>
-                    <div data-aos="fade-up-right" data-aos-duration="1000" class="grid-item grid-item--height2"></div>
-                    <div data-aos="fade-down-left" data-aos-duration="1000" class="grid-item grid-item--width2 grid-item--height3"></div>
-                    <div data-aos="zoom-in" data-aos-duration="1000" class="grid-item"></div>
-                    <div data-aos="zoom-in-up" data-aos-duration="1000" class="grid-item grid-item--height2"></div>
-                    <div data-aos="zoom-in-down" data-aos-duration="1000" class="grid-item"></div>
+		<section id="temoignage">
+			<div class="row">
+				<div data-aos="fade-right" data-aos-duration="2500" class="col-sm-6 ok">
 
-                </div>
-
-            </div>
-
-        </section> <!-- END SECTION #gallery -->
-        <div class="space-mid"></div>
+				</div>
+				<div data-aos="fade-left" data-aos-duration="2500" class="col-sm-6 text-center d-flex justify-content-center align-items-center flex-column okk">
+					<h3 class="p-2">Temoignage</h3>
+					<p data-aos="fade-left" data-aos-duration="3000" class="p-2">
+						<em>"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam adipisci ipsum rem facere temporibus veniam eveniet, ipsa similique commodi ad hic sequi optio excepturi praesentium. Consectetur, animi odio obcaecati saepe."</em>
+					</p>
+					<p data-aos="fade-left" data-aos-duration="3000" class="p-2">
+						<em>"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam adipisci ipsum rem facere temporibus veniam eveniet, ipsa similique commodi ad hic sequi optio excepturi praesentium. Consectetur, animi odio obcaecati saepe."</em>
+					</p>
+					<p data-aos="fade-left" data-aos-duration="3000" class="p-2">
+						<em>"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam adipisci ipsum rem facere temporibus veniam eveniet, ipsa similique commodi ad hic sequi optio excepturi praesentium. Consectetur, animi odio obcaecati saepe."</em>
+					</p>
+				</div>
+			</div>
+		</section> <!-- END #SECTION-->
 
 
+		<section id="gallery">
+			<div class="container">
+				<div class="space-mid"></div>
+				<h2 class="p-2 text-center">Nos derniers evenement</h2>
+				<div class="space-mid"></div>
+				<div class="grid">
+					<div data-aos="fade-right" data-aos-duration="1000" class="grid-item i1"></div>
+					<div data-aos="fade-left" data-aos-duration="1000" class=" i2 grid-item grid-item--width2 grid-item--height2"></div>
+					<div data-aos="fade-up" data-aos-duration="1000" class="i3 grid-item grid-item--height3"></div>
+					<div data-aos="fade-down" data-aos-duration="1000" class="i4 grid-item grid-item--height2"></div>
+					<div data-aos="fade-down-right" data-aos-duration="1000" class="i5 grid-item"></div>
+					<div data-aos="fade-down-left" data-aos-duration="1000" class="i6 grid-item"></div>
+					<div data-aos="fade-up-right" data-aos-duration="1000" class="i7 grid-item grid-item--height2"></div>
+					<div data-aos="fade-down-left" data-aos-duration="1000" class="i8 grid-item grid-item--width2 grid-item--height3"></div>
+					<div data-aos="zoom-in" data-aos-duration="1000" class="grid-item"></div>
+					<div data-aos="zoom-in-up" data-aos-duration="1000" class="i9 grid-item grid-item--height2"></div>
+					<div data-aos="zoom-in-down" data-aos-duration="1000" class="i10 grid-item"></div>
 
-        <footer id="footer" class="section footer-classic context-dark bg-image" style="background: #2d3246;">
-            <div class="container">
-                <div class="row row-30">
-                    <div class="col-md-4 col-xl-5">
-                        <div class="pr-xl-4"><a class="brand" href="index.html"><img class="brand-logo-light" src="images/agency/logo-inverse-140x37.png" alt="" width="140" height="37" srcset="images/agency/logo-retina-inverse-280x74.png 2x"></a>
-                            <p>We are an award-winning creative agency, dedicated to the best result in web design, promotion, business consulting, and marketing.</p>
-                            <!-- Rights-->
-                            <p class="rights"><span>©  </span><span class="copyright-year">2018</span><span> </span><span>Waves</span><span>. </span><span>All Rights Reserved.</span></p>
-                        </div>
-                    </div>
-                    <div class="col-md-4">
-                        <h5>Contacts</h5>
-                        <dl class="contact-list">
-                            <dt>Adresse:</dt>
-                            <dd>9, Rue Dupont Bruxelles, BE</dd>
-                        </dl>
-                        <dl class="contact-list">
-                            <dt>email:</dt>
-                            <dd><a href="mailto:#">dkstudioin@gmail.com</a></dd>
-                        </dl>
-                        <dl class="contact-list">
-                            <dt>Téléphone:</dt>
-                            <dd><a href="tel:#">(+32) 486/78.90.10</a> <span>
-                            </dd>
-                        </dl>
-                    </div>
-                    <div class="col-md-4 col-xl-3">
-                        <h5>Links</h5>
-                        <ul class="nav-list">
-                            <li><a href="#">About</a></li>
-                            <li><a href="#">Projects</a></li>
-                            <li><a href="#">Blog</a></li>
-                            <li><a href="#">Contacts</a></li>
-                            <li><a href="#">Pricing</a></li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-            <div class="row no-gutters social-container">
-                <div class="col"><a class="social-inner" href="#"><span class="icon mdi mdi-facebook"></span><span>Facebook</span></a></div>
-                <div class="col"><a class="social-inner" href="#"><span class="icon mdi mdi-instagram"></span><span>instagram</span></a></div>
-                <div class="col"><a class="social-inner" href="#"><span class="icon mdi mdi-twitter"></span><span>twitter</span></a></div>
-                <div class="col"><a class="social-inner" href="#"><span class="icon mdi mdi-youtube-play"></span><span>google</span></a></div>
-            </div>
-        </footer>
-    </div>
-    <!-- END FOOTER -->
+				</div>
+				<div class="space-mid"></div>
+
+			</div>
+
+		</section> <!-- END SECTION #gallery -->
+
+		<footer id="footer" class="section footer-classic context-dark bg-image" style="background: #2d3246;">
+			<div class="container">
+				<div class="row row-30">
+					<div class="col-md-4 col-xl-5">
+						<div class="pr-xl-4"><a class="brand" href="index.html"><img class="brand-logo-light" src="images/agency/logo-inverse-140x37.png" alt="" width="140" height="37" srcset="images/agency/logo-retina-inverse-280x74.png 2x"></a>
+							<p>We are an award-winning creative agency, dedicated to the best result in web design, promotion, business consulting, and marketing.</p>
+							<!-- Rights-->
+							<p class="rights"><span>©  </span><span class="copyright-year">2018</span><span> </span><span>Waves</span><span>. </span><span>All Rights Reserved.</span></p>
+						</div>
+					</div>
+					<div class="col-md-4">
+						<h5>Contacts</h5>
+						<dl class="contact-list">
+							<dt>Adresse:</dt>
+							<dd>9, Rue Dupont Bruxelles, BE</dd>
+						</dl>
+						<dl class="contact-list">
+							<dt>email:</dt>
+							<dd><a href="mailto:#">dkstudioin@gmail.com</a></dd>
+						</dl>
+						<dl class="contact-list">
+							<dt>Téléphone:</dt>
+							<dd><a href="tel:#">(+32) 486/78.90.10</a> <span>
+							</dd>
+						</dl>
+					</div>
+					<div class="col-md-4 col-xl-3">
+						<h5>Links</h5>
+						<ul class="nav-list">
+							<li><a href="#">About</a></li>
+							<li><a href="#">Projects</a></li>
+							<li><a href="#">Blog</a></li>
+							<li><a href="#">Contacts</a></li>
+							<li><a href="#">Pricing</a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<div class="row no-gutters social-container">
+				<div class="col"><a class="social-inner" href="#"><span class="icon mdi mdi-facebook"></span><span>Facebook</span></a></div>
+				<div class="col"><a class="social-inner" href="#"><span class="icon mdi mdi-instagram"></span><span>instagram</span></a></div>
+				<div class="col"><a class="social-inner" href="#"><span class="icon mdi mdi-twitter"></span><span>twitter</span></a></div>
+				<div class="col"><a class="social-inner" href="#"><span class="icon mdi mdi-youtube-play"></span><span>google</span></a></div>
+			</div>
+		</footer>
+		<!-- END FOOTER -->
+	</div>
+	<!-- SCRIPT -->
+	<script src="https://gitcdn.github.io/bootstrap-toggle/2.2.2/js/bootstrap-toggle.min.js"></script>
+	<script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+	<script src="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.js"></script>
+	<!-- MASONRY-->
+	<script src="https://unpkg.com/masonry-layout@4/dist/masonry.pkgd.min.js"></script>
+	<script src="https://unpkg.com/masonry-layout@4/dist/masonry.pkgd.js"></script>
+	<script src="/assets/masonry/masonry.pkgd.min.js"></script>
+	<script src="/path/to/masonry.pkgd.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"> </script>
+	<!-- Jquery -->
+	<script src="assets/js/script.js"></script>
+	<!-- Bootstrap js -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"> </script>
+	</script>
+	<!-- Bootstrap js -->
+
+	<!-- Bootstrap core JavaScript -->
+	<script src="assets/vendor/jquery/jquery.js"></script>
+	<script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+	<!-- NAV TOOGLE   -->
+	<script>
+		$("#menu-toggle").click(function(e) {
+			e.preventDefault();
+			$("#wrapper").toggleClass("toggled");
+		});
+
+	</script>
+	<!-- MASONRY-->
+	<script src="https://unpkg.com/masonry-layout@4/dist/masonry.pkgd.min.js"> </script>
+	<script src="https://unpkg.com/masonry-layout@4/dist/masonry.pkgd.js"></script>
+	<script src="/assets/masonry/masonry.pkgd.min.js"></script>
+	<script src="/path/to/masonry.pkgd.min.js"></script>
 
 
-
-    <!-- SCRIPT -->
-    <script src="https://gitcdn.github.io/bootstrap-toggle/2.2.2/js/bootstrap-toggle.min.js"></script>
-    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
-    <script src="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.js"></script>
-    <!-- MASONRY-->
-    <script src="https://unpkg.com/masonry-layout@4/dist/masonry.pkgd.min.js"></script>
-    <script src="https://unpkg.com/masonry-layout@4/dist/masonry.pkgd.js"></script>
-    <script src="/assets/masonry/masonry.pkgd.min.js"></script>
-    <script src="/path/to/masonry.pkgd.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"> </script>
-    <!-- Jquery -->
-    <script src="assets/js/script.js"></script>
-    <!-- Bootstrap js -->
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"> </script>
-    </script>
-    <!-- Bootstrap js -->
-
-    <!-- Bootstrap core JavaScript -->
-    <script src="assets/vendor/jquery/jquery.js"></script>
-    <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-    <!-- NAV TOOGLE   -->
-    <script>
-        $("#menu-toggle").click(function(e) {
-            e.preventDefault();
-            $("#wrapper").toggleClass("toggled");
-        });
-
-    </script>
-    <!-- MASONRY-->
-    <script src="https://unpkg.com/masonry-layout@4/dist/masonry.pkgd.min.js"> </script>
-    <script src="https://unpkg.com/masonry-layout@4/dist/masonry.pkgd.js"></script>
-    <script src="/assets/masonry/masonry.pkgd.min.js"></script>
-    <script src="/path/to/masonry.pkgd.min.js"></script>
-
-
-    <!-- NAV TOOGLE   -->
-    </div>
+	<!-- NAV TOOGLE   -->
+	</div>
 </body>
 
 </html>
