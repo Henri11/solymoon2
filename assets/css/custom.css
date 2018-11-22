@@ -405,7 +405,7 @@ ol {
 		background-size: auto;
 		background-position: top;
 	}
-	.hero-accueil h1{
+	.hero-accueil h1,#hero-contact h1,#hero-a-propops h1{
 		font-size: 40px !important;
 	}
 }
