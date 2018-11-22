@@ -393,7 +393,7 @@ ol {
 	html {
 		overflow-x: hidden;
 	}
-	.hero-accueil,.home-service{
+	.hero-accueil,#home-service{
 		background-attachment: local;
 		background-size: auto;
 	}
