@@ -393,11 +393,16 @@ ol {
 	html {
 		overflow-x: hidden;
 	}
-	.hero-accueil,#home-service,#hero-a-propops,#hero-contact{
+	.hero-accueil,#home-service,#hero-a-propops{
 		background-attachment: local;
 		background-size: auto;
 	}
 	#contact{
 		background: grey;
+	}
+	#hero-contact{
+		background-attachment:  local;
+		background-size: auto;
+		background-position: top;
 	}
 }
