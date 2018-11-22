@@ -315,7 +315,7 @@ body {
 #contact {
 	background: url('../img/mailbox-595854_1280%20copie.jpg');
 	background-attachment: fixed;
-	height: 600px
+	min-height: 600px
 }
 
 /*FOOTER*/
@@ -393,8 +393,11 @@ ol {
 	html {
 		overflow-x: hidden;
 	}
-	.hero-accueil,#home-service{
+	.hero-accueil,#home-service,#hero-a-propops,#hero-contact{
 		background-attachment: local;
 		background-size: auto;
+	}
+	#contact{
+		background: grey;
 	}
 }
