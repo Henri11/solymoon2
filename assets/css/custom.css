@@ -405,4 +405,7 @@ ol {
 		background-size: auto;
 		background-position: top;
 	}
+	.hero-accuei h1{
+		font-size: 40px !important;
+	}
 }
